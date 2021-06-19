@@ -1,3 +1,13 @@
+ul,
+ol{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
 /*header styles*/
 
 .logo {
@@ -8,6 +18,12 @@
 
   color: #2196f3;
 }
+
+.logo:hover,
+.logo:focus{
+
+}
+
 
 .menu-item {
   font-family: "Roboto", sans-serif;
@@ -45,4 +61,138 @@
 }
 
 
+/*Hero*/
+
+.main-title{
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36; 
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.main-btn{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.main-btn:focus,
+.main-btn:hover{
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+color: #2196F3;
+background-color: #FFFFFF;
+}
+
+
+/*Specification*/
+
+.spec-list-item{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.spec-list-text{
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/*What are we doing*/
+
+.section-title{
+font-family: "Roboto", sans-serif;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.worker{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.worker-text{
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+/*Footer*/
+
+.nav-link{
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+color: #2196f3;
+}
+
+.address-link{
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:focus,
+.address-link:hover{
+color: #2196f3;
+}
 
