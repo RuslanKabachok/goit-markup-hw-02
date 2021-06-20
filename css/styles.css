@@ -1,4 +1,7 @@
-/*Main page*/
+button{
+  cursor:pointer
+}
+
 
 ul,
 ol{
@@ -9,6 +12,10 @@ a{
   text-decoration: none;
 }
 
+body{
+  font-family: "Roboto", sans-serif;
+  text-color: #212121; 
+}
 
 /*header styles*/
 
@@ -22,8 +29,7 @@ a{
 }
 
 .logo:hover,
-.logo:focus{
-
+.logo:focus{s
 }
 
 
@@ -51,7 +57,7 @@ a{
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -125,7 +131,6 @@ color: #212121;
 
 .spec-list-text{
 font-family: "Roboto", sans-serif;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -158,7 +163,6 @@ color: #212121;
 
 .worker-text{
 font-family: "Roboto", sans-serif;
-font-weight: normal;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -170,7 +174,6 @@ color: #757575;
 
 .nav-link{
 font-family: "Roboto", sans-serif;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -185,7 +188,6 @@ color: #2196f3;
 
 .address-link{
 font-family: "Roboto", sans-serif;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -227,18 +229,13 @@ color: #212121;
 }
 
 .gallery-list-title{
-font-family: "Roboto", sans-serif;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-
-color: #212121;
 }
 
 .gallery-list-description{
-font-family: "Roboto", sans-serif;
-font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
 
