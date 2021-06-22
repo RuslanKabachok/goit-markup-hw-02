@@ -1,3 +1,11 @@
+:root {
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+  --text-color: #212121;
+  --background-color: #f5f4fa;
+}
+
 button {
   cursor: pointer;
 }
@@ -13,7 +21,7 @@ a {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--text-color);
 }
 
 /*header styles*/
@@ -33,7 +41,6 @@ body {
 }
 
 .menu-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,14 +58,13 @@ body {
 }
 
 .contact-link {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--grey-color);
 }
 
 .contact-link:hover,
@@ -69,7 +75,6 @@ body {
 /*Hero*/
 
 .main-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -80,13 +85,9 @@ body {
 }
 
 .main-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--white-color);
@@ -101,21 +102,9 @@ body {
   border-radius: 4px;
 }
 
-.main-btn:focus,
-.main-btn:hover {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
-  color: var(--accent-color);
-  background-color: var(--white-color);
-}
-
 /*Specification*/
 
 .spec-list-item {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -126,7 +115,6 @@ body {
 }
 
 .spec-list-text {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -137,7 +125,6 @@ body {
 /*What are we doing*/
 
 .section-title {
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -148,7 +135,6 @@ body {
 }
 
 .worker {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -158,7 +144,6 @@ body {
 }
 
 .worker-text {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -169,7 +154,6 @@ body {
 /*Footer*/
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -183,7 +167,6 @@ body {
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -198,15 +181,8 @@ body {
 
 /*Portfolio-page*/
 
-:root {
-  --accent-color: #2196f3;
-  --white-color: #ffffff;
-  --grey-color: #757575;
-  --text-color: #212121;
-  --background-color: #f5f4fa;
-}
-
 .portfolio-btn {
+  font-family: inherit;
   width: 128px;
   height: 38px;
   left: 576px;
@@ -215,7 +191,6 @@ body {
   background: var(--background-color);
   border-radius: 4px;
 
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
